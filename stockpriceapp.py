@@ -11,7 +11,9 @@ st.set_page_config(page_title='Stock Price App', page_icon='chart_with_upwards_t
 
 st.write('''
 # Simple Stock Price App
+
 The stock closing price and volume of Google
+
 ***
 ''')
 
