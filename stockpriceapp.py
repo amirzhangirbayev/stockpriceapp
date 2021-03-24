@@ -1,8 +1,6 @@
-import os
 import streamlit as st
 import yfinance as yf
 import pandas as pd
-os.system('cls')
 
 ######################
 # Page Title
