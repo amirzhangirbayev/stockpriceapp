@@ -2,8 +2,8 @@ import streamlit as st
 import yfinance as yf
 import pandas as pd
 
-# Setting wide layout by default
-streamlit.set_page_config(page_title='Stock Price App', page_icon=':money:', layout='wide')
+# Setting the page config
+st.set_page_config(page_title='Stock Price App', page_icon='chart_with_upwards_trend', layout='wide')
 
 ######################
 # Page Title
@@ -11,9 +11,7 @@ streamlit.set_page_config(page_title='Stock Price App', page_icon=':money:', lay
 
 st.write('''
 # Simple Stock Price App
-
 The stock closing price and volume of Google
-
 ***
 ''')
 
