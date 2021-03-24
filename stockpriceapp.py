@@ -2,6 +2,9 @@ import streamlit as st
 import yfinance as yf
 import pandas as pd
 
+# Setting wide layout by default
+streamlit.set_page_config(page_title='Stock Price App', page_icon=':money:', layout='wide')
+
 ######################
 # Page Title
 ######################
