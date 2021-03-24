@@ -41,8 +41,3 @@ st.write('''
 ''')
 
 st.line_chart(tickerDf.Volume)
-
-
-
-
-
